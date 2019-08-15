@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+/*ナビゲーション*/
+
+.nav {
+
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 21px;
+    margin-right: 50px;
+}
+
+/*見出し*/
+
+.sekaiwokaeru {
+    background-image: url(../images/mainbg.png);
+    background-size: cover;
+    position: relative;
+    height: 500px;
+}
+
+.sekaiwokaeru h1 {
+    font-size: 48px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate3d(-50%,-50%,0);
+    color: white;
+}
+
+.sekaiwokaeru h2 {
+    font-size: 36px;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate3d(-50%,-50%,0);
+    color: white;
+}
+
+/*アバウト*/
+
+.about {
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 24px;
+    color: #f0f000;
+    padding: 60px 0 30px 0;
+}
+
+.about h3 {
+    font-size: 18px;
+    padding: 60px 0 40px 0;
+}
+
+.about h2 div p {
+    font-size: 16px;
+}
+
+.about-1 {
+    padding: 40px 0;
+}
+
+.about-2 {
+    padding-bottom: 80px;
+}
+
+.about-3 {
+    display: flex;
+    padding: 0;
+}
+
+/*コース*/
+
+.course {
+    text-align: center;
+}
+
+.course h2 {
+    font-size: 24px;
+    padding: 60px 0 30px 0;
+}
+
+.course-1 {
+    padding: 10px 0 60px 0;
+}
+
+.course-2 {
+    display: flex;
+    box-sizing: border-box;
+    width: 1366px;
+    margin: auto;
+
+}
+
+.course-3 {
+    display: flex;
+    box-sizing: border-box;
+    width: 1366px;
+    margin: auto;
+}
+
+.course-4 {
+    display: flex;
+    box-sizing: border-box;
+    width: 1366px;
+    margin: auto;
+}
+
+/*ニュース*/
+
+.news {
+    text-align: center;
+}
+
+.news h2 {
+    font-size: 24px;
+    padding: 60px 0 30px 0;
+    color: #ffd61a;
+}
+
+.news h3 {
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+
+.news div {
+    display: flex;
+}
+
+/*アクセス*/
+
+.access {
+    text-align: center;
+}
+
+.access h2 {
+    padding: 60px 0 30px 0;
+}
+
+.access h3 {
+    padding-bottom: 30px;
+}
+
+.access ul {
+    padding: 60px 0;
+    display: block;
+}
+
+.access ul li {
+    padding-bottom: 30px;
+    text-align: left;
+}
